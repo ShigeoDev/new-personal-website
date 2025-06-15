@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Star({className}: {className?: string}) {
+export default function Star({className, width = 100, height = 100}: {className?: string, width?: number, height?: number}) {
 
 
   return (
-    <svg className={className} width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <svg className={className} width={width + "%"} height={height + "%"} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
       <Link href="/test">
       <path d="
         M50,5
