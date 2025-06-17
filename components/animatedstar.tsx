@@ -11,7 +11,7 @@ export default function AnimatedStar() {
         ease: "easeOut",
         repeat: 0,     // Only once for the initial spin
       }}
-      className="absolute flex justify-center items-center left-1/2 top-1/2 transform -translate-x-[55%] -translate-y-[55%] w-[min(100vw,100vh)] h-[min(100vw,100vh)]"
+      className="absolute flex justify-center items-center left-1/2 top-1/2 transform -translate-x-[55%] -translate-y-[55%] w-[min(100vw,100vh)] h-[min(100vw,100vh)] z-10"
     >
       <motion.div
         initial={{ rotate: 360 }}

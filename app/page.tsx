@@ -1,8 +1,6 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "motion/react";
-import Star from "../components/star";
 import Person from "../components/person";
 
 export default function Home() {
