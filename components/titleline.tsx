@@ -7,12 +7,12 @@ export default function TitleLine({className, width = 100, height = 100} : {clas
       <motion.path
         d="M100 50 L75 25 L0 25"
         stroke="white"
-        strokeWidth="2"
+        strokeWidth="1"
         strokeLinecap="round"
         fill="none"
         initial={{ pathLength: 0 }}
         animate={{ pathLength: 1 }}
-        transition={{ duration: 0.5, ease: "linear", delay: 2}}
+        transition={{ duration: 1, ease: "linear", delay: 0.2}}
       />
     </svg>
   );
